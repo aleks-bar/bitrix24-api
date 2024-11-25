@@ -1,0 +1,17 @@
+{
+  "name": "alex-bar/telegram-send-to-group",
+  "description": "Create rout for send telegram message to group with bot",
+  "type": "project",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexander Bardin",
+      "email": "sergalexbard@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Bitrix24Api\\": "" },
+    "classmap": [""]
+  }
+}
