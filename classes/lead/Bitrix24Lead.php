@@ -1,13 +1,13 @@
 <?php
 
-namespace lead;
+namespace classes\lead;
 
-use lead\components\ILeadEmail;
-use lead\components\ILeadPhone;
-use lead\components\ILeadUTM;
-use lead\components\LeadEmail;
-use lead\components\LeadPhone;
-use lead\components\LeadUTM;
+use classes\lead\components\ILeadEmail;
+use classes\lead\components\ILeadPhone;
+use classes\lead\components\ILeadUTM;
+use classes\lead\components\LeadEmail;
+use classes\lead\components\LeadPhone;
+use classes\lead\components\LeadUTM;
 
 class Bitrix24Lead
 {

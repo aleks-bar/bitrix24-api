@@ -12,7 +12,7 @@
   ],
   "autoload": {
     "psr-4": { "Bitrix24Api\\": "" },
-    "classmap": ["classes"]
+    "classmap": ["classes/lead"]
   },
   "scripts": {
     "post-create-project-cmd": [

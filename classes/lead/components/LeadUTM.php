@@ -1,6 +1,6 @@
 <?php
 
-namespace lead\components;
+namespace classes\lead\components;
 
 interface ILeadUTM
 {
