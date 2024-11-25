@@ -39,10 +39,13 @@ if (file_exists($main_composer_json) && file_exists($local_composer_json)) {
     chdir($parent_dir);
 
     exec('composer update', $output, $returnCode);
-    exec('composer dump-autoload', $output2, $returnCode2);
 
-    if ($returnCode === 0 && $returnCode2 === 0) {
+    if ($returnCode === 0) {
         echo "composer update успешно выполнен\n";
+        exec('composer dump-autoload', $output2, $returnCode2);
+        if ($returnCode2 === 0) {
+            echo "composer dump-autoload успешно выполнен\n";
+        }
     } else {
         echo "Ошибка при выполнении composer update: " . implode("\n", $output) . "\n";
     }
