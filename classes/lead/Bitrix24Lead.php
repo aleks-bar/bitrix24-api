@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitrix24Lead;
+namespace lead;
 
 use lead\components\ILeadEmail;
 use lead\components\ILeadPhone;

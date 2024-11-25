@@ -1,5 +1,7 @@
 <?php
 
+namespace Bitrix24Api;
+
 class Bitrix24Api
 {
     private static Bitrix24Api $instance;
