@@ -13,5 +13,10 @@
   "autoload": {
     "psr-4": { "Bitrix24Api\\": "" },
     "classmap": [""]
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "php scripts/post-create-script.php"
+    ]
   }
 }
