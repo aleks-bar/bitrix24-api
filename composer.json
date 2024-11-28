@@ -1,5 +1,5 @@
 {
-  "name": "alex-bar/bitrix24-api",
+  "name": "aleks-bar/bitrix24-api",
   "description": "Create rout for send telegram message to group with bot",
   "type": "project",
   "minimum-stability": "stable",
